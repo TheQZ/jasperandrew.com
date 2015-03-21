@@ -1,6 +1,21 @@
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(http://fonts.googleapis.com/css?family=Quicksand);
 *{
     background: #1f1f1f;
     color: #168d1b;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+img{
+    margin: 7vh 0 0 0;
+}
+
+h1{
+    text-shadow: 1px 1px #1cbb22;
+    font-size: 2em;
+}
+
+span{
+    margin: 0 2.5%;
 }
