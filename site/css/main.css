@@ -1,6 +1,27 @@
 @import url(http://fonts.googleapis.com/css?family=Quicksand);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
 * {
-    background: #1f1f1f;
-    color: #168d1b;
     font-family: Quicksand, sans-serif;
+    font-size: 1em;
+    color: #168d1b;
+}
+
+body {
+    background: #1f1f1f;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.25em;
+}
+
+p {
+    font-family: Open Sans, sans-serif;
 }

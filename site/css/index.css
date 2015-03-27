@@ -11,12 +11,13 @@ img {
 
 h1 {
     color: #1cbb22;
-    font-size: 2em;
+    font-size: 2.2em;
 }
 
 a {
     text-decoration: none;
     margin: 0 2.5%;
+    font-size: 1.4em;
     -webkit-transition: all 0.4s;
     -moz-transition: all 0.4s;
     transition: all .4s;
@@ -24,9 +25,9 @@ a {
 
 a:hover {
     color: #79d97d;
-    -webkit-animation: neon 1s ease-in-out infinite alternate;
-    -moz-animation: neon 1s ease-in-out infinite alternate;
-    animation: neon 1s ease-in-out infinite alternate; 
+    -webkit-animation: neon .8s ease-in-out infinite alternate;
+    -moz-animation: neon .8s ease-in-out infinite alternate;
+    animation: neon .8s ease-in-out infinite alternate; 
 }
 
 @-webkit-keyframes neon {
