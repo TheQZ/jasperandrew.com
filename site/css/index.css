@@ -15,7 +15,9 @@ h1 {
 }
 
 a {
+    color: #168d1b;
     text-decoration: none;
+    font-weight: bold;
     margin: 0 2.5%;
     font-size: 1.4em;
     -webkit-transition: all 0.4s;

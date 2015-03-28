@@ -3,7 +3,7 @@
 * {
     font-family: Quicksand, sans-serif;
     font-size: 1em;
-    color: #168d1b;
+    color: #bebebe;
 }
 
 body {
@@ -12,6 +12,7 @@ body {
 
 h1 {
     font-size: 2em;
+    color: #168d1b;
 }
 
 h2 {
