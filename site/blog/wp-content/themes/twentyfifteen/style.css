@@ -8,7 +8,7 @@ Theme URI: https://wordpress.org/themes/twentyfifteen
 Author: the WordPress team
 Author URI: https://wordpress.org/
 Description: Our 2015 default theme is clean, blog-focused, and designed for clarity. Twenty Fifteen's simple, straightforward typography is readable on a wide variety of screen sizes, and suitable for multiple languages. We designed it using a mobile-first approach, meaning your content takes center-stage, regardless of whether your visitors arrive by smartphone, tablet, laptop, or desktop computer.
-Version: 1.0
+Version: 4.3.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: black, blue, gray, pink, purple, white, yellow, dark, light, two-columns, left-sidebar, fixed-layout, responsive-layout, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
@@ -5749,6 +5749,7 @@ code, kbd, tt, var, samp, pre {
 
 .site-title a {
     font-size: 2em;
+	color: #1cbb22;
 }
 
 .site-description {
@@ -5758,13 +5759,48 @@ code, kbd, tt, var, samp, pre {
 .widget-title {
     font-size: 1.3em;
     margin: 0 0 0.6em;
+	color: #1cbb22;
 }
 
 .site-info {
     display: none;
 }
 
-.widget input[type="search"] {
-    color: #1f1f1f;
-    background-color: #7f7f7f;
+input[type="search"], 
+input[type="text"], 
+input[type="email"], 
+input[type="url"], 
+textarea {
+	transition: all .3s;
+    color: #000000;
+    background-color: #4f4f4f;
+	border-radius: 5px;
+	border: none;
+}
+
+input[type="search"]:focus, 
+input[type="text"]:focus, 
+input[type="email"]:focus, 
+input[type="url"]:focus, 
+textarea:focus {
+    color: #000000;
+    background-color: #4f4f4f;
+	border: none;
+	box-shadow: inset 0 0 .5em #7f7f7f;
+}
+
+main {
+	background-color: #171717;
+}
+
+article, 
+div[class="comments-area"], 
+input[class="submit"], 
+nav[class="navigation post-navigation"],
+header[class="page-header"] {
+	border-radius: 5px;
+}
+
+footer[class="entry-footer"] {
+	border-radius: 0 0 5px 5px;
 }
