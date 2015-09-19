@@ -1,6 +1,7 @@
 * {
     text-align: center;
     font-size: 1.2em;
+	text-shadow: 0 0 .5px #79d97d;
 }
 
 img {
@@ -20,9 +21,9 @@ a {
     font-weight: bold;
     margin: 0 2.5%;
     font-size: 1.4em;
-    -webkit-transition: all 0.4s;
-    -moz-transition: all 0.4s;
-    transition: all .4s;
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    transition: all .6s;
 }
 
 a:hover {
@@ -33,58 +34,37 @@ a:hover {
 }
 
 @-webkit-keyframes neon {
-  from {
-    text-shadow: 0 0 1px #79d97d,
-               0 0 2px  #4fd154,
-               0 0 3px  #4fd154,
-               0 0 4px  #1cbb22,
-               0 0 7px  #1cbb22,
-               0 0 8px  #1cbb22;
-  }
+  from {}
   to {
-    text-shadow: 0 0 .5px #79d97d,
-               0 0 1px #4fd154,
-               0 0 1.5px #4fd154,
-               0 0 2px #1cbb22,
-               0 0 3.5px #1cbb22,
-               0 0 4px #1cbb22;
+    text-shadow: 0 0 1px #79d97d,
+               0 0 2px #4fd154,
+               0 0 3px #4fd154,
+               0 0 4px #1cbb22,
+               0 0 5px #1cbb22,
+               0 0 6px #1cbb22;
   }
 }
 
 @-moz-keyframes neon {
-  from {
-    text-shadow: 0 0 1px #79d97d,
-               0 0 2px  #4fd154,
-               0 0 3px  #4fd154,
-               0 0 4px  #1cbb22,
-               0 0 7px  #1cbb22,
-               0 0 8px  #1cbb22;
-  }
+  from {}
   to {
-    text-shadow: 0 0 .5px #79d97d,
-               0 0 1px #4fd154,
-               0 0 1.5px #4fd154,
-               0 0 2px #1cbb22,
-               0 0 3.5px #1cbb22,
-               0 0 4px #1cbb22;
+    text-shadow: 0 0 1px #79d97d,
+               0 0 2px #4fd154,
+               0 0 3px #4fd154,
+               0 0 4px #1cbb22,
+               0 0 5px #1cbb22,
+               0 0 6px #1cbb22;
   }
 }
 
 @keyframes neon {
-  from {
-    text-shadow: 0 0 1px #79d97d,
-               0 0 2px  #4fd154,
-               0 0 3px  #4fd154,
-               0 0 4px  #1cbb22,
-               0 0 7px  #1cbb22,
-               0 0 8px  #1cbb22;
-  }
+  from {}
   to {
-    text-shadow: 0 0 .5px #79d97d,
-               0 0 1px #4fd154,
-               0 0 1.5px #4fd154,
-               0 0 2px #1cbb22,
-               0 0 3.5px #1cbb22,
-               0 0 4px #1cbb22;
+    text-shadow: 0 0 1px #79d97d,
+               0 0 2px #4fd154,
+               0 0 3px #4fd154,
+               0 0 4px #1cbb22,
+               0 0 5px #1cbb22,
+               0 0 6px #1cbb22;
   }
 }
