@@ -1,7 +1,5 @@
 * {
     text-align: center;
-    font-size: 1.2em;
-	text-shadow: 0 0 .5px #79d97d;
 }
 
 img {
@@ -15,8 +13,7 @@ img {
 }
 
 h1 {
-    color: #1cbb22;
-    font-size: 2.2em;
+    font-size: 4.5em;
 	transition: all .6s;
 	-webkit-animation: neon 3s ease-in-out infinite alternate;
 	-moz-animation: neon 3s ease-in-out infinite alternate;
@@ -27,7 +24,7 @@ h1 {
 a {
     text-decoration: none;
     font-weight: bold;
-	font-size: 1.3em;
+	font-size: 2.5em;
     margin: 0 2.5%;
 }
 
@@ -58,76 +55,122 @@ a span:nth-child(7) {
 }
 
 a:hover span{
-    color: #79d97d;
-	text-shadow:
-	0 0 1px #79d97d, 
-    0 0 2px #4fd154, 
-    0 0 3px #4fd154, 
-    0 0 4px #1cbb22, 
-    0 0 5px #1cbb22, 
-    0 0 6px #1cbb22;
+	color: rgba(28, 137, 34, 0);
+	text-shadow: 
+	0 0 1px #73D977, 
+	0 0 5px #07520A, 
+	0 0 .5px #07520A, 
+	0 0 1px #1cbb22, 
+	0 0 1.5px #1cbb22, 
+	0 0 2px #1cbb22, 
+	0 0 2.5px #4fd154, 
+	0 0 3px #79d97d;
 }
 
 @-webkit-keyframes neon {
-    from {
-		text-shadow: 
-		0 0 .5px #1cbb22, 
-		0 0 1px #4fd154;
-	}
-	to {
-		color: #4fd154;
-		text-shadow: 
-		0 0 .5px #79d97d, 
-		0 0 1px #4fd154, 
-		0 0 2px #1cbb22, 
-		0 0 3px #1cbb22;
-	}
+  from {
+    color: rgba(28, 137, 34, 0);
+    text-shadow: 
+      0 0 1px #73D977, 
+      0 0 5px #07520A, 
+      0 0 .5px #07520A, 
+      0 0 1px #1cbb22, 
+      0 0 1.5px #1cbb22, 
+      0 0 2px #1cbb22, 
+      0 0 2.5px #4fd154, 
+      0 0 3px #79d97d;
+  }
+  to {
+    color: rgba(28, 137, 34, 0);
+    text-shadow: 
+      0 0 1.5px #73D977, 
+      0 0 5px #07520A, 
+      0 0 1px #07520A, 
+      0 0 1px #1cbb22, 
+      0 0 2px #1cbb22, 
+      0 0 3px #1cbb22, 
+      0 0 4px #4fd154, 
+      0 0 4px #79d97d;
+  }
 }
 
 @-moz-keyframes neon {
-    from {
-		text-shadow: 
-		0 0 .5px #1cbb22, 
-		0 0 1px #4fd154;
-	}
-	to {
-		color: #4fd154;
-		text-shadow: 
-		0 0 .5px #79d97d, 
-		0 0 1px #4fd154, 
-		0 0 2px #1cbb22, 
-		0 0 3px #1cbb22;
-	}
+  from {
+    color: rgba(28, 137, 34, 0);
+    text-shadow: 
+      0 0 1px #73D977, 
+      0 0 5px #07520A, 
+      0 0 .5px #07520A, 
+      0 0 1px #1cbb22, 
+      0 0 1.5px #1cbb22, 
+      0 0 2px #1cbb22, 
+      0 0 2.5px #4fd154, 
+      0 0 3px #79d97d;
+  }
+  to {
+    color: rgba(28, 137, 34, 0);
+    text-shadow: 
+      0 0 1.5px #73D977, 
+      0 0 5px #07520A, 
+      0 0 1px #07520A, 
+      0 0 1px #1cbb22, 
+      0 0 2px #1cbb22, 
+      0 0 3px #1cbb22, 
+      0 0 4px #4fd154, 
+      0 0 4px #79d97d;
+  }
 }
 
 @-o-keyframes neon {
-    from {
-		text-shadow: 
-		0 0 .5px #1cbb22, 
-		0 0 1px #4fd154;
-	}
-	to {
-		color: #4fd154;
-		text-shadow: 
-		0 0 .5px #79d97d, 
-		0 0 1px #4fd154, 
-		0 0 2px #1cbb22, 
-		0 0 3px #1cbb22;
-	}
+  from {
+    color: rgba(28, 137, 34, 0);
+    text-shadow: 
+      0 0 1px #73D977, 
+      0 0 5px #07520A, 
+      0 0 .5px #07520A, 
+      0 0 1px #1cbb22, 
+      0 0 1.5px #1cbb22, 
+      0 0 2px #1cbb22, 
+      0 0 2.5px #4fd154, 
+      0 0 3px #79d97d;
+  }
+  to {
+    color: rgba(28, 137, 34, 0);
+    text-shadow: 
+      0 0 1.5px #73D977, 
+      0 0 5px #07520A, 
+      0 0 1px #07520A, 
+      0 0 1px #1cbb22, 
+      0 0 2px #1cbb22, 
+      0 0 3px #1cbb22, 
+      0 0 4px #4fd154, 
+      0 0 4px #79d97d;
+  }
 }
 
 @keyframes neon {
-    from {
-		text-shadow: 
-		0 0 .5px #1cbb22, 
-		0 0 1px #4fd154;
-	}
-	to {
-		color: #4fd154;
-		text-shadow: 
-		0 0 .5px #79d97d, 
-		0 0 1px #4fd154, 
-		0 0 2px #1cbb22, 
-		0 0 3px #1cbb22;
-	}
+  from {
+    color: rgba(28, 137, 34, 0);
+    text-shadow: 
+      0 0 1px #73D977, 
+      0 0 5px #07520A, 
+      0 0 .5px #07520A, 
+      0 0 1px #1cbb22, 
+      0 0 1.5px #1cbb22, 
+      0 0 2px #1cbb22, 
+      0 0 2.5px #4fd154, 
+      0 0 3px #79d97d;
+  }
+  to {
+    color: rgba(28, 137, 34, 0);
+    text-shadow: 
+      0 0 1.5px #73D977, 
+      0 0 5px #07520A, 
+      0 0 1px #07520A, 
+      0 0 1px #1cbb22, 
+      0 0 2px #1cbb22, 
+      0 0 3px #1cbb22, 
+      0 0 4px #4fd154, 
+      0 0 4px #79d97d;
+  }
 }
