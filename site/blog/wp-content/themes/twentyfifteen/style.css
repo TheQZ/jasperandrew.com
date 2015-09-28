@@ -5804,3 +5804,7 @@ header[class="page-header"] {
 footer[class="entry-footer"] {
 	border-radius: 0 0 5px 5px;
 }
+
+.custom-background {
+	background-color: #171717;
+}

@@ -6,19 +6,14 @@ img {
     margin: 10vh auto 0 auto;
     width: 300px;
     height: 300px;
-	-webkit-animation: svg_neon 3s ease-in-out infinite alternate;
-	-moz-animation: svg_neon 3s ease-in-out infinite alternate;
-	-o-animation: svg_neon 3s ease-in-out infinite alternate;
-	animation: svg_neon 3s ease-in-out infinite alternate;
 }
 
 h1 {
     font-size: 4.5em;
-	transition: all .6s;
-	-webkit-animation: neon 3s ease-in-out infinite alternate;
-	-moz-animation: neon 3s ease-in-out infinite alternate;
-	-o-animation: neon 3s ease-in-out infinite alternate;
-	animation: neon 3s ease-in-out infinite alternate;
+	-webkit-animation: neon 1s ease-in-out infinite alternate;
+	-moz-animation: neon 1s ease-in-out infinite alternate;
+	-o-animation: neon 1s ease-in-out infinite alternate;
+	animation: neon 1s ease-in-out infinite alternate;
 }
 
 a {
@@ -59,11 +54,8 @@ a:hover span{
 	text-shadow: 
 	0 0 1px #73D977, 
 	0 0 5px #07520A, 
-	0 0 .5px #07520A, 
 	0 0 1px #1cbb22, 
-	0 0 1.5px #1cbb22, 
 	0 0 2px #1cbb22, 
-	0 0 2.5px #4fd154, 
 	0 0 3px #79d97d;
 }
 
@@ -73,11 +65,8 @@ a:hover span{
     text-shadow: 
       0 0 1px #73D977, 
       0 0 5px #07520A, 
-      0 0 .5px #07520A, 
       0 0 1px #1cbb22, 
-      0 0 1.5px #1cbb22, 
       0 0 2px #1cbb22, 
-      0 0 2.5px #4fd154, 
       0 0 3px #79d97d;
   }
   to {
@@ -85,11 +74,8 @@ a:hover span{
     text-shadow: 
       0 0 1.5px #73D977, 
       0 0 5px #07520A, 
-      0 0 1px #07520A, 
       0 0 1px #1cbb22, 
-      0 0 2px #1cbb22, 
       0 0 3px #1cbb22, 
-      0 0 4px #4fd154, 
       0 0 4px #79d97d;
   }
 }
@@ -100,11 +86,8 @@ a:hover span{
     text-shadow: 
       0 0 1px #73D977, 
       0 0 5px #07520A, 
-      0 0 .5px #07520A, 
       0 0 1px #1cbb22, 
-      0 0 1.5px #1cbb22, 
       0 0 2px #1cbb22, 
-      0 0 2.5px #4fd154, 
       0 0 3px #79d97d;
   }
   to {
@@ -112,11 +95,8 @@ a:hover span{
     text-shadow: 
       0 0 1.5px #73D977, 
       0 0 5px #07520A, 
-      0 0 1px #07520A, 
       0 0 1px #1cbb22, 
-      0 0 2px #1cbb22, 
       0 0 3px #1cbb22, 
-      0 0 4px #4fd154, 
       0 0 4px #79d97d;
   }
 }
@@ -127,11 +107,8 @@ a:hover span{
     text-shadow: 
       0 0 1px #73D977, 
       0 0 5px #07520A, 
-      0 0 .5px #07520A, 
       0 0 1px #1cbb22, 
-      0 0 1.5px #1cbb22, 
       0 0 2px #1cbb22, 
-      0 0 2.5px #4fd154, 
       0 0 3px #79d97d;
   }
   to {
@@ -139,11 +116,8 @@ a:hover span{
     text-shadow: 
       0 0 1.5px #73D977, 
       0 0 5px #07520A, 
-      0 0 1px #07520A, 
       0 0 1px #1cbb22, 
-      0 0 2px #1cbb22, 
       0 0 3px #1cbb22, 
-      0 0 4px #4fd154, 
       0 0 4px #79d97d;
   }
 }
@@ -154,11 +128,11 @@ a:hover span{
     text-shadow: 
       0 0 1px #73D977, 
       0 0 5px #07520A, 
-      0 0 .5px #07520A, 
+      /*0 0 .5px #07520A, */
       0 0 1px #1cbb22, 
-      0 0 1.5px #1cbb22, 
+      /*0 0 1.5px #1cbb22, */
       0 0 2px #1cbb22, 
-      0 0 2.5px #4fd154, 
+      /*0 0 2.5px #4fd154, */
       0 0 3px #79d97d;
   }
   to {
@@ -166,11 +140,11 @@ a:hover span{
     text-shadow: 
       0 0 1.5px #73D977, 
       0 0 5px #07520A, 
-      0 0 1px #07520A, 
+      /*0 0 1px #07520A, */
       0 0 1px #1cbb22, 
-      0 0 2px #1cbb22, 
+      /*0 0 2px #1cbb22, */
       0 0 3px #1cbb22, 
-      0 0 4px #4fd154, 
+      /*0 0 4px #4fd154, */
       0 0 4px #79d97d;
   }
 }
