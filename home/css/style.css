@@ -1,0 +1,84 @@
+@import url(http://fonts.googleapis.com/css?family=Quicksand);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+* {
+    font-family: Quicksand, sans-serif;
+    font-size: 1em;
+	text-align: center;
+	cursor: default;
+}
+
+body {
+    background: #1f1f1f;
+}
+
+div {
+	cursor: pointer;
+}
+
+h1 {
+    font-size: 4.5em;
+	color: #168d1b;
+	-webkit-animation: neon 1s ease-in-out infinite alternate;
+	-moz-animation: neon 1s ease-in-out infinite alternate;
+	-o-animation: neon 1s ease-in-out infinite alternate;
+	animation: neon 1s ease-in-out infinite alternate;
+}
+
+p {
+    font-family: Open Sans, sans-serif;
+}
+
+img {
+    margin: 10vh auto 0 auto;
+    width: 300px;
+    height: 300px;
+}
+
+.t {
+	transition: .3s;
+}
+
+.glo {
+	color: #168d1b;
+}
+
+.glo:hover {
+	color: rgba(28, 137, 34, 0);
+	text-shadow: 
+	0 0 1px #73D977, 
+	0 0 5px #07520A, 
+	0 0 1px #1cbb22, 
+	0 0 2px #1cbb22, 
+	0 0 3px #79d97d;
+}
+
+.on {
+	color: rgba(28, 137, 34, 0);
+	text-shadow: 
+	0 0 1px #73D977, 
+	0 0 5px #07520A, 
+	0 0 1px #1cbb22, 
+	0 0 2px #1cbb22, 
+	0 0 3px #79d97d;
+	animation: none;
+}
+
+.off {
+	color: #282828;
+	text-shadow: none;
+	cursor: default;
+	animation: none;
+}
+
+#who, #design, #code {
+	display: inline-block;
+	/border: 1px solid white;
+	width: 150px;
+	margin: 0 auto;
+    text-decoration: none;
+	font-size: 2.7em;
+}
+
+#design {
+	margin: 0 120px;
+}
