@@ -42,14 +42,14 @@ img {
 	color: #168d1b;
 }
 
-.glo:hover {
+.glo:hover, .on:hover{
 	color: rgba(28, 137, 34, 0);
 	text-shadow: 
-	0 0 1px #73D977, 
+	0 0 1px #2DB92D, 
 	0 0 5px #07520A, 
-	0 0 1px #1cbb22, 
-	0 0 2px #1cbb22, 
-	0 0 3px #79d97d;
+	0 0 1px #0F6212, 
+	0 0 2px #0F6212, 
+	0 0 3px #30BC32;
 }
 
 .on {
@@ -60,7 +60,6 @@ img {
 	0 0 1px #1cbb22, 
 	0 0 2px #1cbb22, 
 	0 0 3px #79d97d;
-	animation: none;
 }
 
 .off {
