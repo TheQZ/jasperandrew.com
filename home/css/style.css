@@ -1,5 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Quicksand);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
 * {
     font-family: Quicksand, sans-serif;
     font-size: 1em;
@@ -17,11 +18,22 @@ div {
 
 h1 {
     font-size: 4.5em;
-	color: #168d1b;
-	-webkit-animation: neon 1s ease-in-out infinite alternate;
-	-moz-animation: neon 1s ease-in-out infinite alternate;
-	-o-animation: neon 1s ease-in-out infinite alternate;
-	animation: neon 1s ease-in-out infinite alternate;
+	color: rgba(28, 137, 34, 0);
+    text-shadow: 
+      0 0 1px #73D977, 
+      0 0 5px #07520A, 
+      0 0 1px #1cbb22, 
+      0 0 2px #1cbb22, 
+      0 0 3px #79d97d;
+}
+
+h1:hover {
+    text-shadow: 
+      0 0 1.5px #73D977, 
+      0 0 5px #07520A, 
+      0 0 1px #1cbb22, 
+      0 0 3px #1cbb22, 
+      0 0 4px #79d97d;
 }
 
 p {
