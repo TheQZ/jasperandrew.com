@@ -1,95 +1,88 @@
 @import url(http://fonts.googleapis.com/css?family=Quicksand);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
-* {
-    font-family: Quicksand, sans-serif;
-    font-size: 1em;
-	text-align: center;
-	cursor: default;
-}
-
-body {
-    background: #1f1f1f;
-}
-
-div {
-	cursor: pointer;
-}
-
-h1 {
-    font-size: 4.5em;
-	color: rgba(28, 137, 34, 0);
-    text-shadow: 
-      0 0 1px #73D977, 
-      0 0 5px #07520A, 
-      0 0 1px #1cbb22, 
-      0 0 2px #1cbb22, 
-      0 0 3px #79d97d;
-}
-
-h1:hover {
-    text-shadow: 
-      0 0 1.5px #73D977, 
-      0 0 5px #07520A, 
-      0 0 1px #1cbb22, 
-      0 0 3px #1cbb22, 
-      0 0 4px #79d97d;
+html, body {
+  padding: 0;
+  margin: 0;
+  background-color: #1f1f1f;
+  width: 100%;
+  height: 100%;
+  font-family: Quicksand, sans-serif;
+  font-size: 1em;
+  text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
 }
 
 p {
-    font-family: Open Sans, sans-serif;
+  font-family: Open Sans, sans-serif;
 }
 
-img {
-    margin: 10vh auto 0 auto;
-    width: 300px;
-    height: 300px;
+#name {
+  font-size: 4.5em;
+  color: rgba(28, 137, 34, 0);
+  text-shadow:
+  0 0 1px #73D977,
+  0 0 5px #07520A,
+  0 0 1px #1cbb22,
+  0 0 2px #1cbb22,
+  0 0 3px #79d97d;
 }
 
-.t {
-	transition: .3s;
-}
-
-.glo {
-	color: #168d1b;
-}
-
-.glo:hover, .on:hover{
-	color: rgba(28, 137, 34, 0);
-	text-shadow: 
-	0 0 1px #2DB92D, 
-	0 0 5px #07520A, 
-	0 0 1px #0F6212, 
-	0 0 2px #0F6212, 
-	0 0 3px #30BC32;
-}
-
-.on {
-	color: rgba(28, 137, 34, 0);
-	text-shadow: 
-	0 0 1px #73D977, 
-	0 0 5px #07520A, 
-	0 0 1px #1cbb22, 
-	0 0 2px #1cbb22, 
-	0 0 3px #79d97d;
-}
-
-.off {
-	color: #282828;
-	text-shadow: none;
-	cursor: default;
-	animation: none;
+#face {
+  margin: 10vh auto 0 auto;
+  width: 300px;
+  height: 300px;
 }
 
 #who, #design, #code {
-	display: inline-block;
-	/border: 1px solid white;
-	width: 150px;
-	margin: 0 auto;
-    text-decoration: none;
-	font-size: 2.7em;
+  display: inline-block;
+  width: 150px;
+  margin: 0 auto;
+  text-decoration: none;
+  font-size: 2.7em;
 }
 
 #design {
-	margin: 0 120px;
+  margin: 0 120px;
+}
+
+.trans {
+  transition: .3s;
+}
+
+.glo {
+  color: #168d1b;
+  cursor: pointer;
+}
+
+.on {
+  color: rgba(28, 137, 34, 0);
+  text-shadow:
+  0 0 1px #73D977,
+  0 0 5px #07520A,
+  0 0 1px #1cbb22,
+  0 0 2px #1cbb22,
+  0 0 3px #79d97d;
+}
+
+.glo:hover, .on:hover{
+  transform: scale(1.05);
+}
+
+.off {
+  color: #232323 !important;
+  text-shadow: none !important;
+  cursor: default !important;
+}
+
+.off:hover {
+  transform: none !important;
+}
+
+.img-off {
+  filter: grayscale(100%) brightness(32%) !important;
 }
